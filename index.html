@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/style/main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main class="col-12 main">
+        <div class="col-12 d-lg-none row mobile-menu align-items-center">
+            <div class="col-12 h-50 d-flex justify-content-between">
+
+                <a href="">
+                    <img src="assets/img/logo-inverse.png" alt="">
+                </a>
+
+                <div>
+                    <i onclick="menu()" class="bi bi-list"></i>
+                </div>
+            </div>
+            
+
+        </div>
+        <!-- *******mobile-menu****** -->
+        <section class="container-fluid h-100">
+            
+
+
+            <div class="row h-100">
+
+              
+
+
+                <div class="d-none d-xxl-flex h-100 d-flex justify-content-center" id="sidebar">
+                    <div class="sidebar row">
+                        <div class="col-12 d-flex justify-content-between align-items-center p-4 border">
+                          <a href="">
+                            <figure class="m-0">
+                                <img src="assets/img/logo.png" class="col-12" alt="">
+                            </figure>
+                          </a>
+                            <a href="">
+                                <i class="bi bi-list"></i>
+                            </a>
+                        </div>
+                        <div class="col-12 border">
+                            <ul class="p-2">
+                                <li class="my-3"><i class="text-icon">MENU</i></li>
+                                <li><a href=""><i class="bi bi-rocket"></i><span>dashboard</span><i class="bi bi-chevron-down"></i></a>
+                                
+                                    <ul class="px-0">
+
+                                        <li><a href="">dashboard</a></li>
+                                        <li><a href="">dashboard</a></li>
+                                        <li><a href="">dashboard</a></li>
+                                        <li><a href="">dashboard</a></li>
+                                        <li><a href="">dashboard</a></li>
+                                        <li><a href="">dashboard</a></li>
+                                        <li><a href="">dashboard</a></li>
+                                    </ul>
+                                
+                                </li>
+                                <li><a href=""><i class="bi bi-menu-up"></i><span>pages</span><i class="bi bi-chevron-down"></i></a></li>
+                                <li><a href=""><i class="bi bi-menu-button-wide"></i><span>applications</span><i class="bi bi-chevron-down"></i></a></li>
+                                <li class="my-3"><i class="text-icon">UI COMPONENTS</i></li>
+                                <li><a href=""><i class="bi bi-gem"></i><span>elements</span><i class="bi bi-chevron-down"></i></a></li>
+                                <li><a href=""><i class="bi bi-car-front"></i><span>components</span><i class="bi bi-chevron-down"></i></a></li>
+                                <li><a href=""><i class="bi bi-table"></i><span>tables</span><i class="bi bi-chevron-down"></i></a></li>
+                                <li class="my-2"><i class="text-icon">DASHBOARD WIDGETS</i></li>
+                                <li><a href=""><i class="bi bi-pie-chart"></i><span>chart boxes 1</span></a></li>
+                                <li><a href=""><i class="bi bi-dribbble"></i><span>chart boxes 2</span></a></li>
+                                <li><a href=""><i class="bi bi-easel"></i><span>chart boxes 3</span></a></li>
+                                <li><a href=""><i class="bi bi-easel2"></i><span>profile boxes</span></a></li>
+                                <li class="my-3"><i class="text-icon">forms</i></li>
+                                <li><a href=""><i class="bi bi-lightbulb"></i><span>elements</span><i class="bi bi-chevron-down"></i></a></li>
+                                <li><a href=""><i class="bi bi-joystick"></i><span>wigets</span><i class="bi bi-chevron-down"></i></a></li>
+                                <li class="my-3"><i class="text-icon">charts</i></li>
+                                <li><a href=""><i class="bi bi-graph-up-arrow"></i><span>chartjs</span></a></li>
+                                <li><a href=""><i class="bi bi-pie-chart"></i><span>apexcharts</span></a></li>
+                                <li><a href=""><i class="bi bi-clipboard-data"></i><span>apexcharts</span></a></li>
+                            </ul>
+
+                        </div>
+        
+                    </div>
+                    
+        
+                </div>
+
+                <!-- ****sidebar**** -->
+
+
+                <div class="col-12 h-100">
+                  <section class="container-fluid h-100">
+
+                      <div class="row align-items-center justify-content-between">
+
+                        <div class="left-header col-6">
+                            Analytics 
+                            <div>
+                                This is an example dashboard created using build-in elements and components. 
+                            </div>
+                        </div>
+
+                        <div class="d-none d-lg-flex right-header col-5 justify-content-evenly align-items-end">
+                            <div>
+                                <i class="bi bi-search col-3"></i>
+                                <input type="text" class="col-9 pb-0" placeholder="search...">
+                            </div>
+                            <div>
+                                <i class="bi bi-grid"></i>
+                                <i class="bi bi-bell"></i>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="assets/img/3.jpg" alt="">
+                                    <i class="bi bi-chevron-down"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                      </div>
+
+                      <!-- *******header-top****** -->
+
+                      <div class="row app-inner-bar">
+                          <div class="col-12 border d-flex justify-content-between align-items-center">
+                              <a href="">
+                                <i class="bi bi-list-columns"></i>
+                                <span class="d-none d-lg-inline">show page menu</span>
+                              </a>
+                              <ul class="row col-7 m-0 justify-content-evenly">
+                                  <li class="col-12 col-md-3 text-center"><a href="">overview</a></li>
+                                  <li class="col-12 col-md-3 text-center"><a href="">audiecence</a></li>
+                                  <li class="col-12 col-md-3 text-center"><a href="">demographics</a></li>
+                                  <li class="col-12 col-md-3 text-center"><a href="">more<i class="bi bi-chevron-down"></i></a></li>
+                              </ul>
+                              <a href="">
+
+                                  <span class="d-none d-lg-inline">show page menu</span>
+                                  <i class="bi bi-list-columns"></i>
+                                </a>
+
+                          </div>
+
+                      </div>
+
+                      <!-- ********app-inner******* -->
+
+                      <div class="row Portfolio-Performance">
+                          <div class="col-12">
+                              <div class="row justify-content-between align-items-center border">
+                                  <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-start">Portfolio Performance </div>
+                                  <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end"><a href="">view all</a></div>
+                              </div>
+                              <div class="row">
+                                    <div class="col-sm-6 col-md-4 col-xl-4 d-flex align-items-center">
+                                        <div >
+                                            <div class="icon-yellow">
+                                                <i class="bi bi-laptop"></i>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>Cash Deposits</div>
+                                            <div>
+                                                1,7M</div>
+                                            <div>
+                                                <i class="bi bi-chevron-down"></i>
+                                                <span>54.1%</span>
+                                                <span>
+                                                    less earnings</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-xl-4 d-flex align-items-center">
+                                        <div >
+                                            <div class="icon-pink">
+                                                <i class="bi bi-building"></i>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>Cash Deposits</div>
+                                            <div>
+                                                9M</div>
+                                            <div>
+                                                <i class="bi bi-chevron-down"></i>
+                                                <span>54.1%</span>
+                                                <span>
+                                                    less earnings</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-xl-4 d-flex align-items-center">
+                                        <div >
+                                            <div class="icon-green">
+                                                <i class="bi bi-mortarboard"></i>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>Cash Deposits</div>
+                                            <div style="color: #4dc989;">
+                                                
+                                            $563</div>
+                                            <div>
+                                                <i class="bi bi-chevron-down"></i>
+                                                <span>54.1%</span>
+                                                <span>
+                                                    less earnings</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                  
+                              </div>
+                              <div class="row align-items-center border">
+                                  <div class="d-flex justify-content-center">
+                                      <a href="">
+                                          <i class="bi bi-clipboard-pulse"></i>
+                                          <span>
+                                              view complete report
+                                          </span>
+                                      </a>
+                                  </div>
+
+                              </div>
+
+                          </div>
+
+                      </div>
+
+                      <!-- *********portfolio********* -->
+                      <div class="row chart-1">
+                          <div class="col-12">
+                            <div class="row justify-content-between">
+                                <div class="row col-12 p-0">
+                                    <div class="col-12 d-flex justify-content-between border">
+                                        <div>
+                                            <i class="bi bi-cloud-arrow-down"></i>
+                                            Technical Support 
+                                        </div>
+                                        <div><i class="bi bi-list"></i></div>
+                                    </div>
+
+                                    <canvas class="col-12" id="myChart"></canvas>
+
+                                    <div class="col-12 row align-content-between border p-0">
+                                        <div class="col-12 d-flex justify-content-between">
+                                            <div>
+                                                <div><span>Total Orders</span> <br> Last year expenses </div>
+                                                
+                                            </div>
+                                            <div class="d-flex align-items-end">$ 1896</div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="progress" style="height: 5px;">
+                                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                              </div>
+                                              <div class=" d-flex justify-content-between">
+                                                  <span>YoY Growth</span>
+                                                  <span>100%</span>
+
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- **********chart-left********* -->
+                                <div class="row col-12 p-0">
+                                    <div class="col-12 d-flex justify-content-between border">
+                                        <div>
+                                            <i class="bi bi-cloud-arrow-down"></i>
+                                            Technical Support 
+                                        </div>
+                                        <div><i class="bi bi-list"></i></div>
+                                    </div>
+
+                                    <div class="Timeline-Example p-0 ">
+                                        <div class="col-12 h-100 border">
+                                            <div class="d-flex">
+                                                <span style="border-color: #4dc989;"></span>
+                                                <div>All Hands Meeting</div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <span style="border-color: #f7b924;"></span>
+                                                <div>Yet another one, at 15:00 PM</div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <span style="border-color: #16aaff;"></span>
+                                                <div>Build the production release</div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <span style="border-color: #4dc989;"></span>
+                                                <div>All Hands Meeting</div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <span style="border-color: #393f45;"></span>
+                                                <div>Something not important </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <span style="border-color: #4dc989;"></span>
+                                                <div>This dot has a dark state</div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <span style="border-color: #da624a;"></span>
+                                                <div>All Hands Meeting</div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <span style="border-color: #4dc989;"></span>
+                                                <div>Yet another one, at 15:00 PM</div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <span style="border-color: #16aaff;"></span>
+                                                <div>All Hands Meeting</div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <span></span>
+                                                <div>All Hands Meeting</div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="col-12 row align-items-center border p-0">
+                                        <div class="col-12 h-75 d-flex justify-content-center">
+                                            <a class="d-flex justify-content-center align-items-center" href="">view all masseages</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                               <!-- ********chart-right********* -->
+                            </div>
+
+                          </div>
+                      </div>
+                      <!-- ********chart-1***** -->
+
+
+                      <div class="row chart-2">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div>
+                                            <div class="d-flex">
+                                                <span>$</span>
+                                                <div>
+                                                     1286
+                                                </div>
+
+                                            </div>
+                                           <h6>
+                                            sales last month
+                                           </h6>
+                                           <div class="col-12">
+                                                <svg version="1.1" style="font-family: Roboto; font-size: 12px;" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 650 400" aria-hidden="false" aria-label="Interactive chart"><defs aria-hidden="true"><clipPath ><rect x="0" y="0" width="598" height="282" fill="none"></rect></clipPath><clipPath ><rect x="0" y="0" width="598" height="282" fill="none"></rect></clipPath></defs><rect fill="#ffffff" x="0" y="0" width="650" height="400" rx="0" ry="0" aria-hidden="true"></rect><rect fill="none" x="42" y="45" width="598" height="282" aria-hidden="true"></rect><g data-z-index="0" aria-hidden="true"></g><rect fill="none" data-z-index="1" x="42" y="45" width="598" height="282" aria-hidden="true"></rect><g data-z-index="1" aria-hidden="true"><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 141.5 45 L 141.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 240.5 45 L 240.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 340.5 45 L 340.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 440.5 45 L 440.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 539.5 45 L 539.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 639.5 45 L 639.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 41.5 45 L 41.5 327" opacity="1"></path></g><g data-z-index="1" aria-hidden="true"><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 327.5 L 640 327.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 44.5 L 640 44.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 257.5 L 640 257.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 186.5 L 640 186.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 116.5 L 640 116.5" opacity="1"></path></g><g data-z-index="2" aria-hidden="true"><path fill="none" stroke="#ccd6eb" stroke-width="1" data-z-index="7" d="M 42 327.5 L 640 327.5"></path></g><g data-z-index="2" aria-hidden="true"><path fill="none" data-z-index="7" d="M 42 45 L 42 327"></path></g><g data-z-index="3" aria-hidden="false"><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="url(#highcharts-fxib8z5-8-)" aria-hidden="true"><path fill="none" d="M 49.833333333333 214.32 C 49.833333333333 214.32 109.63333333333321 152.28 149.5 152.28 C 189.366666666664 152.28 209.299999999996 250.98 249.16666666666 250.98 C 289.033333333328 250.98 308.96666666666204 87.41999999999999 348.83333333333 87.41999999999999 C 388.699999999998 87.41999999999999 408.633333333332 172.01999999999998 448.5 172.01999999999998 C 488.36666666666406 172.01999999999998 548.16666666666 53.58000000000001 548.16666666666 53.58000000000001" data-z-index="1" stroke="#6f58e9" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 49.833333333333 214.32 C 49.833333333333 214.32 109.63333333333321 152.28 149.5 152.28 C 189.366666666664 152.28 209.299999999996 250.98 249.16666666666 250.98 C 289.033333333328 250.98 308.96666666666204 87.41999999999999 348.83333333333 87.41999999999999 C 388.699999999998 87.41999999999999 408.633333333332 172.01999999999998 448.5 172.01999999999998 C 488.36666666666406 172.01999999999998 548.16666666666 53.58000000000001 548.16666666666 53.58000000000001" data-z-index="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" style="cursor: pointer;"></path></g><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="none" style="cursor: pointer; outline: currentcolor none medium;" aria-hidden="false" role="region" tabindex="-1" aria-label="Item 1, line 1 of 2 with 6 data points."><path fill="#6f58e9" d="M 348 87.41999999999999 A 0 0 0 1 1 348 87.41999999999999 Z" data-z-index="-1" fill-opacity="0.25" visibility="hidden"></path><path fill="#6f58e9" d="M 49 218.32 A 4 4 0 1 1 49.00399999933334 218.31999800000017 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 1, 24. Item 1."></path><path fill="#6f58e9" d="M 149 156.28 A 4 4 0 1 1 149.00399999933333 156.27999800000018 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 2, 46. Item 1."></path><path fill="#6f58e9" d="M 249 254.98 A 4 4 0 1 1 249.00399999933333 254.97999800000017 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 3, 11. Item 1."></path><path fill="#6f58e9" d="M 348 91.41999999999999 A 4 4 0 1 1 348.00399999933336 91.41999800000015 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 4, 69. Item 1." stroke-width="0.00000703591563822048"></path><path fill="#6f58e9" d="M 448 176.01999999999998 A 4 4 0 1 1 448.00399999933336 176.01999800000016 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 5, 39. Item 1."></path><path fill="#6f58e9" d="M 548 57.58000000000001 A 4 4 0 1 1 548.0039999993334 57.57999800000018 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 6, 81. Item 1."></path></g><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="url(#highcharts-fxib8z5-8-)" aria-hidden="true"><path fill="none" d="M 49.833333333333 135.36 C 49.833333333333 135.36 109.63333333333321 236.88 149.5 236.88 C 189.366666666664 236.88 209.299999999996 22.560000000000002 249.16666666666 22.560000000000002 C 289.033333333328 22.560000000000002 308.96666666666204 219.96 348.83333333333 219.96 C 388.699999999998 219.96 408.633333333332 182.17200000000201 448.5 141 C 488.36666666666406 99.82800000000202 548.16666666666 14.100000000000023 548.16666666666 14.100000000000023" data-z-index="1" stroke="#94d13d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 49.833333333333 135.36 C 49.833333333333 135.36 109.63333333333321 236.88 149.5 236.88 C 189.366666666664 236.88 209.299999999996 22.560000000000002 249.16666666666 22.560000000000002 C 289.033333333328 22.560000000000002 308.96666666666204 219.96 348.83333333333 219.96 C 388.699999999998 219.96 408.633333333332 182.17200000000201 448.5 141 C 488.36666666666406 99.82800000000202 548.16666666666 14.100000000000023 548.16666666666 14.100000000000023" data-z-index="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" style="cursor: pointer;"></path></g><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="none" style="cursor: pointer; outline: currentcolor none medium;" aria-hidden="false" role="region" tabindex="-1" aria-label="Item 2, line 2 of 2 with 6 data points."><path fill="#94d13d" d="M 348 219.96 A 0 0 0 1 1 348 219.96 Z" data-z-index="-1" fill-opacity="0.25" visibility="hidden"></path><path fill="#94d13d" d="M 49 131.36 L 53 135.36 L 49 139.36 L 45 135.36 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 1, 52. Item 2."></path><path fill="#94d13d" d="M 149 232.88 L 153 236.88 L 149 240.88 L 145 236.88 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 2, 16. Item 2."></path><path fill="#94d13d" d="M 249 18.560000000000002 L 253 22.560000000000002 L 249 26.560000000000002 L 245 22.560000000000002 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 3, 92. Item 2."></path><path fill="#94d13d" d="M 348 215.96 L 352 219.96 L 348 223.96 L 344 219.96 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 4, 22. Item 2." stroke-width="0.000009869571931497845"></path><path fill="#94d13d" d="M 448 137 L 452 141 L 448 145 L 444 141 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 5, 50. Item 2."></path><path fill="#94d13d" d="M 548 10.100000000000023 L 552 14.100000000000023 L 548 18.100000000000023 L 544 14.100000000000023 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 6, 95. Item 2."></path></g></g><g data-z-index="3" aria-hidden="true"><g stroke-linecap="round" style="cursor: pointer;" transform="translate(616,10)"><title>Chart context menu</title><rect fill="#ffffff" x="0.5" y="0.5" width="24" height="22" rx="2" ry="2" stroke="none" stroke-width="1"></rect><path fill="#666666" d="M 6 6.5 L 20 6.5 M 6 11.5 L 20 11.5 M 6 16.5 L 20 16.5" data-z-index="1" stroke="#666666" stroke-width="3"></path><text font-family='Roboto-Regular,Roboto' x="0" data-z-index="1" y="15.5" style="color: rgb(51, 51, 51); font-weight: normal; fill: rgb(51, 51, 51);"></text></g></g><text font-family='Roboto-Regular,Roboto' x="325" text-anchor="middle" data-z-index="4" style="color: rgb(51, 51, 51); font-size: 18px; fill: rgb(51, 51, 51);" y="24" aria-hidden="true">Chart title</text><text font-family='Roboto-Regular,Roboto' x="325" text-anchor="middle" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="44" aria-hidden="true"></text><text font-family='Roboto-Regular,Roboto' x="10" text-anchor="start" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="397" aria-hidden="true"></text><g data-z-index="7" aria-hidden="true" transform="translate(253,359)"><rect fill="none" rx="0" ry="0" x="0" y="0" width="144" height="26"></rect><g data-z-index="1"><g><g data-z-index="1" transform="translate(8,3)"><path fill="none" d="M 0 11 L 16 11" stroke="#6f58e9" stroke-width="2"></path><path fill="#6f58e9" d="M 8 15 A 4 4 0 1 1 8.003999999333336 14.999998000000167 Z" opacity="1"></path><text font-family='Roboto-Regular,Roboto' x="21" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 12px; font-weight: bold; fill: rgb(51, 51, 51);" text-anchor="start" data-z-index="2" y="15">Item 1</text></g><g data-z-index="1" transform="translate(82,3)"><path fill="none" d="M 0 11 L 16 11" stroke="#94d13d" stroke-width="2"></path><path fill="#94d13d" d="M 8 7 L 12 11 L 8 15 L 4 11 Z" opacity="1"></path><text font-family='Roboto-Regular,Roboto' x="21" y="15" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 12px; font-weight: bold; fill: rgb(51, 51, 51);" text-anchor="start" data-z-index="2">Item 2</text></g></g></g></g><g data-z-index="7" aria-hidden="true"><text font-family='Roboto-Regular,Roboto' x="91.83333333333667" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 1</text><text font-family='Roboto-Regular,Roboto' x="191.49999999999665" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 2</text><text font-family='Roboto-Regular,Roboto' x="291.1666666666667" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 3</text><text font-family='Roboto-Regular,Roboto' x="390.83333333332666" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 4</text><text font-family='Roboto-Regular,Roboto' x="490.49999999999665" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 5</text><text font-family='Roboto-Regular,Roboto' x="590.1666666666666" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 6</text></g><g data-z-index="7" aria-hidden="true"><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="332" opacity="1">0</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="50" opacity="1">100</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="262" opacity="1">25</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="191" opacity="1">50</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="121" opacity="1">75</text></g></svg>
+                                           </div>
+                                          
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12">
+                                        <div>
+                                            <div class="d-flex">
+                                                <span>$</span>
+                                                <div>
+                                                     1286
+                                                </div>
+
+                                            </div>
+                                           <h6>
+                                            sales last month
+                                           </h6>
+                                           <div class="col-12">
+                                                <svg version="1.1" style="font-family: Roboto; font-size: 12px;" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 650 400" aria-hidden="false" aria-label="Interactive chart"><defs aria-hidden="true"><clipPath ><rect x="0" y="0" width="598" height="282" fill="none"></rect></clipPath><clipPath ><rect x="0" y="0" width="598" height="282" fill="none"></rect></clipPath></defs><rect fill="#ffffff" x="0" y="0" width="650" height="400" rx="0" ry="0" aria-hidden="true"></rect><rect fill="none" x="42" y="45" width="598" height="282" aria-hidden="true"></rect><g data-z-index="0" aria-hidden="true"></g><rect fill="none" data-z-index="1" x="42" y="45" width="598" height="282" aria-hidden="true"></rect><g data-z-index="1" aria-hidden="true"><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 141.5 45 L 141.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 240.5 45 L 240.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 340.5 45 L 340.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 440.5 45 L 440.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 539.5 45 L 539.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 639.5 45 L 639.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 41.5 45 L 41.5 327" opacity="1"></path></g><g data-z-index="1" aria-hidden="true"><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 327.5 L 640 327.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 44.5 L 640 44.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 257.5 L 640 257.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 186.5 L 640 186.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 116.5 L 640 116.5" opacity="1"></path></g><g data-z-index="2" aria-hidden="true"><path fill="none" stroke="#ccd6eb" stroke-width="1" data-z-index="7" d="M 42 327.5 L 640 327.5"></path></g><g data-z-index="2" aria-hidden="true"><path fill="none" data-z-index="7" d="M 42 45 L 42 327"></path></g><g data-z-index="3" aria-hidden="false"><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="url(#highcharts-fxib8z5-8-)" aria-hidden="true"><path fill="none" d="M 49.833333333333 214.32 C 49.833333333333 214.32 109.63333333333321 152.28 149.5 152.28 C 189.366666666664 152.28 209.299999999996 250.98 249.16666666666 250.98 C 289.033333333328 250.98 308.96666666666204 87.41999999999999 348.83333333333 87.41999999999999 C 388.699999999998 87.41999999999999 408.633333333332 172.01999999999998 448.5 172.01999999999998 C 488.36666666666406 172.01999999999998 548.16666666666 53.58000000000001 548.16666666666 53.58000000000001" data-z-index="1" stroke="#6f58e9" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 49.833333333333 214.32 C 49.833333333333 214.32 109.63333333333321 152.28 149.5 152.28 C 189.366666666664 152.28 209.299999999996 250.98 249.16666666666 250.98 C 289.033333333328 250.98 308.96666666666204 87.41999999999999 348.83333333333 87.41999999999999 C 388.699999999998 87.41999999999999 408.633333333332 172.01999999999998 448.5 172.01999999999998 C 488.36666666666406 172.01999999999998 548.16666666666 53.58000000000001 548.16666666666 53.58000000000001" data-z-index="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" style="cursor: pointer;"></path></g><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="none" style="cursor: pointer; outline: currentcolor none medium;" aria-hidden="false" role="region" tabindex="-1" aria-label="Item 1, line 1 of 2 with 6 data points."><path fill="#6f58e9" d="M 348 87.41999999999999 A 0 0 0 1 1 348 87.41999999999999 Z" data-z-index="-1" fill-opacity="0.25" visibility="hidden"></path><path fill="#6f58e9" d="M 49 218.32 A 4 4 0 1 1 49.00399999933334 218.31999800000017 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 1, 24. Item 1."></path><path fill="#6f58e9" d="M 149 156.28 A 4 4 0 1 1 149.00399999933333 156.27999800000018 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 2, 46. Item 1."></path><path fill="#6f58e9" d="M 249 254.98 A 4 4 0 1 1 249.00399999933333 254.97999800000017 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 3, 11. Item 1."></path><path fill="#6f58e9" d="M 348 91.41999999999999 A 4 4 0 1 1 348.00399999933336 91.41999800000015 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 4, 69. Item 1." stroke-width="0.00000703591563822048"></path><path fill="#6f58e9" d="M 448 176.01999999999998 A 4 4 0 1 1 448.00399999933336 176.01999800000016 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 5, 39. Item 1."></path><path fill="#6f58e9" d="M 548 57.58000000000001 A 4 4 0 1 1 548.0039999993334 57.57999800000018 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 6, 81. Item 1."></path></g><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="url(#highcharts-fxib8z5-8-)" aria-hidden="true"><path fill="none" d="M 49.833333333333 135.36 C 49.833333333333 135.36 109.63333333333321 236.88 149.5 236.88 C 189.366666666664 236.88 209.299999999996 22.560000000000002 249.16666666666 22.560000000000002 C 289.033333333328 22.560000000000002 308.96666666666204 219.96 348.83333333333 219.96 C 388.699999999998 219.96 408.633333333332 182.17200000000201 448.5 141 C 488.36666666666406 99.82800000000202 548.16666666666 14.100000000000023 548.16666666666 14.100000000000023" data-z-index="1" stroke="#94d13d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 49.833333333333 135.36 C 49.833333333333 135.36 109.63333333333321 236.88 149.5 236.88 C 189.366666666664 236.88 209.299999999996 22.560000000000002 249.16666666666 22.560000000000002 C 289.033333333328 22.560000000000002 308.96666666666204 219.96 348.83333333333 219.96 C 388.699999999998 219.96 408.633333333332 182.17200000000201 448.5 141 C 488.36666666666406 99.82800000000202 548.16666666666 14.100000000000023 548.16666666666 14.100000000000023" data-z-index="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" style="cursor: pointer;"></path></g><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="none" style="cursor: pointer; outline: currentcolor none medium;" aria-hidden="false" role="region" tabindex="-1" aria-label="Item 2, line 2 of 2 with 6 data points."><path fill="#94d13d" d="M 348 219.96 A 0 0 0 1 1 348 219.96 Z" data-z-index="-1" fill-opacity="0.25" visibility="hidden"></path><path fill="#94d13d" d="M 49 131.36 L 53 135.36 L 49 139.36 L 45 135.36 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 1, 52. Item 2."></path><path fill="#94d13d" d="M 149 232.88 L 153 236.88 L 149 240.88 L 145 236.88 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 2, 16. Item 2."></path><path fill="#94d13d" d="M 249 18.560000000000002 L 253 22.560000000000002 L 249 26.560000000000002 L 245 22.560000000000002 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 3, 92. Item 2."></path><path fill="#94d13d" d="M 348 215.96 L 352 219.96 L 348 223.96 L 344 219.96 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 4, 22. Item 2." stroke-width="0.000009869571931497845"></path><path fill="#94d13d" d="M 448 137 L 452 141 L 448 145 L 444 141 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 5, 50. Item 2."></path><path fill="#94d13d" d="M 548 10.100000000000023 L 552 14.100000000000023 L 548 18.100000000000023 L 544 14.100000000000023 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 6, 95. Item 2."></path></g></g><g data-z-index="3" aria-hidden="true"><g stroke-linecap="round" style="cursor: pointer;" transform="translate(616,10)"><title>Chart context menu</title><rect fill="#ffffff" x="0.5" y="0.5" width="24" height="22" rx="2" ry="2" stroke="none" stroke-width="1"></rect><path fill="#666666" d="M 6 6.5 L 20 6.5 M 6 11.5 L 20 11.5 M 6 16.5 L 20 16.5" data-z-index="1" stroke="#666666" stroke-width="3"></path><text font-family='Roboto-Regular,Roboto' x="0" data-z-index="1" y="15.5" style="color: rgb(51, 51, 51); font-weight: normal; fill: rgb(51, 51, 51);"></text></g></g><text font-family='Roboto-Regular,Roboto' x="325" text-anchor="middle" data-z-index="4" style="color: rgb(51, 51, 51); font-size: 18px; fill: rgb(51, 51, 51);" y="24" aria-hidden="true">Chart title</text><text font-family='Roboto-Regular,Roboto' x="325" text-anchor="middle" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="44" aria-hidden="true"></text><text font-family='Roboto-Regular,Roboto' x="10" text-anchor="start" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="397" aria-hidden="true"></text><g data-z-index="7" aria-hidden="true" transform="translate(253,359)"><rect fill="none" rx="0" ry="0" x="0" y="0" width="144" height="26"></rect><g data-z-index="1"><g><g data-z-index="1" transform="translate(8,3)"><path fill="none" d="M 0 11 L 16 11" stroke="#6f58e9" stroke-width="2"></path><path fill="#6f58e9" d="M 8 15 A 4 4 0 1 1 8.003999999333336 14.999998000000167 Z" opacity="1"></path><text font-family='Roboto-Regular,Roboto' x="21" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 12px; font-weight: bold; fill: rgb(51, 51, 51);" text-anchor="start" data-z-index="2" y="15">Item 1</text></g><g data-z-index="1" transform="translate(82,3)"><path fill="none" d="M 0 11 L 16 11" stroke="#94d13d" stroke-width="2"></path><path fill="#94d13d" d="M 8 7 L 12 11 L 8 15 L 4 11 Z" opacity="1"></path><text font-family='Roboto-Regular,Roboto' x="21" y="15" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 12px; font-weight: bold; fill: rgb(51, 51, 51);" text-anchor="start" data-z-index="2">Item 2</text></g></g></g></g><g data-z-index="7" aria-hidden="true"><text font-family='Roboto-Regular,Roboto' x="91.83333333333667" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 1</text><text font-family='Roboto-Regular,Roboto' x="191.49999999999665" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 2</text><text font-family='Roboto-Regular,Roboto' x="291.1666666666667" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 3</text><text font-family='Roboto-Regular,Roboto' x="390.83333333332666" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 4</text><text font-family='Roboto-Regular,Roboto' x="490.49999999999665" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 5</text><text font-family='Roboto-Regular,Roboto' x="590.1666666666666" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 6</text></g><g data-z-index="7" aria-hidden="true"><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="332" opacity="1">0</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="50" opacity="1">100</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="262" opacity="1">25</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="191" opacity="1">50</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="121" opacity="1">75</text></g></svg>
+                                           </div>
+                                          
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12">
+                                        <div>
+                                            <div class="d-flex">
+                                                <span>$</span>
+                                                <div>
+                                                     1286
+                                                </div>
+
+                                            </div>
+                                           <h6>
+                                            sales last month
+                                           </h6>
+                                           <div class="col-12">
+                                                <svg version="1.1" style="font-family: Roboto; font-size: 12px;" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 650 400" aria-hidden="false" aria-label="Interactive chart"><defs aria-hidden="true"><clipPath ><rect x="0" y="0" width="598" height="282" fill="none"></rect></clipPath><clipPath ><rect x="0" y="0" width="598" height="282" fill="none"></rect></clipPath></defs><rect fill="#ffffff" x="0" y="0" width="650" height="400" rx="0" ry="0" aria-hidden="true"></rect><rect fill="none" x="42" y="45" width="598" height="282" aria-hidden="true"></rect><g data-z-index="0" aria-hidden="true"></g><rect fill="none" data-z-index="1" x="42" y="45" width="598" height="282" aria-hidden="true"></rect><g data-z-index="1" aria-hidden="true"><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 141.5 45 L 141.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 240.5 45 L 240.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 340.5 45 L 340.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 440.5 45 L 440.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 539.5 45 L 539.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 639.5 45 L 639.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 41.5 45 L 41.5 327" opacity="1"></path></g><g data-z-index="1" aria-hidden="true"><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 327.5 L 640 327.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 44.5 L 640 44.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 257.5 L 640 257.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 186.5 L 640 186.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 116.5 L 640 116.5" opacity="1"></path></g><g data-z-index="2" aria-hidden="true"><path fill="none" stroke="#ccd6eb" stroke-width="1" data-z-index="7" d="M 42 327.5 L 640 327.5"></path></g><g data-z-index="2" aria-hidden="true"><path fill="none" data-z-index="7" d="M 42 45 L 42 327"></path></g><g data-z-index="3" aria-hidden="false"><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="url(#highcharts-fxib8z5-8-)" aria-hidden="true"><path fill="none" d="M 49.833333333333 214.32 C 49.833333333333 214.32 109.63333333333321 152.28 149.5 152.28 C 189.366666666664 152.28 209.299999999996 250.98 249.16666666666 250.98 C 289.033333333328 250.98 308.96666666666204 87.41999999999999 348.83333333333 87.41999999999999 C 388.699999999998 87.41999999999999 408.633333333332 172.01999999999998 448.5 172.01999999999998 C 488.36666666666406 172.01999999999998 548.16666666666 53.58000000000001 548.16666666666 53.58000000000001" data-z-index="1" stroke="#6f58e9" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 49.833333333333 214.32 C 49.833333333333 214.32 109.63333333333321 152.28 149.5 152.28 C 189.366666666664 152.28 209.299999999996 250.98 249.16666666666 250.98 C 289.033333333328 250.98 308.96666666666204 87.41999999999999 348.83333333333 87.41999999999999 C 388.699999999998 87.41999999999999 408.633333333332 172.01999999999998 448.5 172.01999999999998 C 488.36666666666406 172.01999999999998 548.16666666666 53.58000000000001 548.16666666666 53.58000000000001" data-z-index="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" style="cursor: pointer;"></path></g><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="none" style="cursor: pointer; outline: currentcolor none medium;" aria-hidden="false" role="region" tabindex="-1" aria-label="Item 1, line 1 of 2 with 6 data points."><path fill="#6f58e9" d="M 348 87.41999999999999 A 0 0 0 1 1 348 87.41999999999999 Z" data-z-index="-1" fill-opacity="0.25" visibility="hidden"></path><path fill="#6f58e9" d="M 49 218.32 A 4 4 0 1 1 49.00399999933334 218.31999800000017 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 1, 24. Item 1."></path><path fill="#6f58e9" d="M 149 156.28 A 4 4 0 1 1 149.00399999933333 156.27999800000018 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 2, 46. Item 1."></path><path fill="#6f58e9" d="M 249 254.98 A 4 4 0 1 1 249.00399999933333 254.97999800000017 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 3, 11. Item 1."></path><path fill="#6f58e9" d="M 348 91.41999999999999 A 4 4 0 1 1 348.00399999933336 91.41999800000015 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 4, 69. Item 1." stroke-width="0.00000703591563822048"></path><path fill="#6f58e9" d="M 448 176.01999999999998 A 4 4 0 1 1 448.00399999933336 176.01999800000016 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 5, 39. Item 1."></path><path fill="#6f58e9" d="M 548 57.58000000000001 A 4 4 0 1 1 548.0039999993334 57.57999800000018 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 6, 81. Item 1."></path></g><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="url(#highcharts-fxib8z5-8-)" aria-hidden="true"><path fill="none" d="M 49.833333333333 135.36 C 49.833333333333 135.36 109.63333333333321 236.88 149.5 236.88 C 189.366666666664 236.88 209.299999999996 22.560000000000002 249.16666666666 22.560000000000002 C 289.033333333328 22.560000000000002 308.96666666666204 219.96 348.83333333333 219.96 C 388.699999999998 219.96 408.633333333332 182.17200000000201 448.5 141 C 488.36666666666406 99.82800000000202 548.16666666666 14.100000000000023 548.16666666666 14.100000000000023" data-z-index="1" stroke="#94d13d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 49.833333333333 135.36 C 49.833333333333 135.36 109.63333333333321 236.88 149.5 236.88 C 189.366666666664 236.88 209.299999999996 22.560000000000002 249.16666666666 22.560000000000002 C 289.033333333328 22.560000000000002 308.96666666666204 219.96 348.83333333333 219.96 C 388.699999999998 219.96 408.633333333332 182.17200000000201 448.5 141 C 488.36666666666406 99.82800000000202 548.16666666666 14.100000000000023 548.16666666666 14.100000000000023" data-z-index="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" style="cursor: pointer;"></path></g><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="none" style="cursor: pointer; outline: currentcolor none medium;" aria-hidden="false" role="region" tabindex="-1" aria-label="Item 2, line 2 of 2 with 6 data points."><path fill="#94d13d" d="M 348 219.96 A 0 0 0 1 1 348 219.96 Z" data-z-index="-1" fill-opacity="0.25" visibility="hidden"></path><path fill="#94d13d" d="M 49 131.36 L 53 135.36 L 49 139.36 L 45 135.36 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 1, 52. Item 2."></path><path fill="#94d13d" d="M 149 232.88 L 153 236.88 L 149 240.88 L 145 236.88 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 2, 16. Item 2."></path><path fill="#94d13d" d="M 249 18.560000000000002 L 253 22.560000000000002 L 249 26.560000000000002 L 245 22.560000000000002 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 3, 92. Item 2."></path><path fill="#94d13d" d="M 348 215.96 L 352 219.96 L 348 223.96 L 344 219.96 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 4, 22. Item 2." stroke-width="0.000009869571931497845"></path><path fill="#94d13d" d="M 448 137 L 452 141 L 448 145 L 444 141 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 5, 50. Item 2."></path><path fill="#94d13d" d="M 548 10.100000000000023 L 552 14.100000000000023 L 548 18.100000000000023 L 544 14.100000000000023 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 6, 95. Item 2."></path></g></g><g data-z-index="3" aria-hidden="true"><g stroke-linecap="round" style="cursor: pointer;" transform="translate(616,10)"><title>Chart context menu</title><rect fill="#ffffff" x="0.5" y="0.5" width="24" height="22" rx="2" ry="2" stroke="none" stroke-width="1"></rect><path fill="#666666" d="M 6 6.5 L 20 6.5 M 6 11.5 L 20 11.5 M 6 16.5 L 20 16.5" data-z-index="1" stroke="#666666" stroke-width="3"></path><text font-family='Roboto-Regular,Roboto' x="0" data-z-index="1" y="15.5" style="color: rgb(51, 51, 51); font-weight: normal; fill: rgb(51, 51, 51);"></text></g></g><text font-family='Roboto-Regular,Roboto' x="325" text-anchor="middle" data-z-index="4" style="color: rgb(51, 51, 51); font-size: 18px; fill: rgb(51, 51, 51);" y="24" aria-hidden="true">Chart title</text><text font-family='Roboto-Regular,Roboto' x="325" text-anchor="middle" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="44" aria-hidden="true"></text><text font-family='Roboto-Regular,Roboto' x="10" text-anchor="start" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="397" aria-hidden="true"></text><g data-z-index="7" aria-hidden="true" transform="translate(253,359)"><rect fill="none" rx="0" ry="0" x="0" y="0" width="144" height="26"></rect><g data-z-index="1"><g><g data-z-index="1" transform="translate(8,3)"><path fill="none" d="M 0 11 L 16 11" stroke="#6f58e9" stroke-width="2"></path><path fill="#6f58e9" d="M 8 15 A 4 4 0 1 1 8.003999999333336 14.999998000000167 Z" opacity="1"></path><text font-family='Roboto-Regular,Roboto' x="21" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 12px; font-weight: bold; fill: rgb(51, 51, 51);" text-anchor="start" data-z-index="2" y="15">Item 1</text></g><g data-z-index="1" transform="translate(82,3)"><path fill="none" d="M 0 11 L 16 11" stroke="#94d13d" stroke-width="2"></path><path fill="#94d13d" d="M 8 7 L 12 11 L 8 15 L 4 11 Z" opacity="1"></path><text font-family='Roboto-Regular,Roboto' x="21" y="15" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 12px; font-weight: bold; fill: rgb(51, 51, 51);" text-anchor="start" data-z-index="2">Item 2</text></g></g></g></g><g data-z-index="7" aria-hidden="true"><text font-family='Roboto-Regular,Roboto' x="91.83333333333667" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 1</text><text font-family='Roboto-Regular,Roboto' x="191.49999999999665" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 2</text><text font-family='Roboto-Regular,Roboto' x="291.1666666666667" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 3</text><text font-family='Roboto-Regular,Roboto' x="390.83333333332666" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 4</text><text font-family='Roboto-Regular,Roboto' x="490.49999999999665" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 5</text><text font-family='Roboto-Regular,Roboto' x="590.1666666666666" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 6</text></g><g data-z-index="7" aria-hidden="true"><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="332" opacity="1">0</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="50" opacity="1">100</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="262" opacity="1">25</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="191" opacity="1">50</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="121" opacity="1">75</text></g></svg>
+                                           </div>
+                                          
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12">
+                                        <div>
+                                            <div class="d-flex">
+                                                <span>$</span>
+                                                <div>
+                                                     1286
+                                                </div>
+
+                                            </div>
+                                           <h6>
+                                            sales last month
+                                           </h6>
+                                           <div class="col-12">
+                                                <svg version="1.1" style="font-family: Roboto; font-size: 12px;" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 650 400" aria-hidden="false" aria-label="Interactive chart"><defs aria-hidden="true"><clipPath ><rect x="0" y="0" width="598" height="282" fill="none"></rect></clipPath><clipPath ><rect x="0" y="0" width="598" height="282" fill="none"></rect></clipPath></defs><rect fill="#ffffff" x="0" y="0" width="650" height="400" rx="0" ry="0" aria-hidden="true"></rect><rect fill="none" x="42" y="45" width="598" height="282" aria-hidden="true"></rect><g data-z-index="0" aria-hidden="true"></g><rect fill="none" data-z-index="1" x="42" y="45" width="598" height="282" aria-hidden="true"></rect><g data-z-index="1" aria-hidden="true"><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 141.5 45 L 141.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 240.5 45 L 240.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 340.5 45 L 340.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 440.5 45 L 440.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 539.5 45 L 539.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 639.5 45 L 639.5 327" opacity="1"></path><path fill="none" stroke-dasharray="none" data-z-index="1" d="M 41.5 45 L 41.5 327" opacity="1"></path></g><g data-z-index="1" aria-hidden="true"><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 327.5 L 640 327.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 44.5 L 640 44.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 257.5 L 640 257.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 186.5 L 640 186.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" d="M 42 116.5 L 640 116.5" opacity="1"></path></g><g data-z-index="2" aria-hidden="true"><path fill="none" stroke="#ccd6eb" stroke-width="1" data-z-index="7" d="M 42 327.5 L 640 327.5"></path></g><g data-z-index="2" aria-hidden="true"><path fill="none" data-z-index="7" d="M 42 45 L 42 327"></path></g><g data-z-index="3" aria-hidden="false"><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="url(#highcharts-fxib8z5-8-)" aria-hidden="true"><path fill="none" d="M 49.833333333333 214.32 C 49.833333333333 214.32 109.63333333333321 152.28 149.5 152.28 C 189.366666666664 152.28 209.299999999996 250.98 249.16666666666 250.98 C 289.033333333328 250.98 308.96666666666204 87.41999999999999 348.83333333333 87.41999999999999 C 388.699999999998 87.41999999999999 408.633333333332 172.01999999999998 448.5 172.01999999999998 C 488.36666666666406 172.01999999999998 548.16666666666 53.58000000000001 548.16666666666 53.58000000000001" data-z-index="1" stroke="#6f58e9" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 49.833333333333 214.32 C 49.833333333333 214.32 109.63333333333321 152.28 149.5 152.28 C 189.366666666664 152.28 209.299999999996 250.98 249.16666666666 250.98 C 289.033333333328 250.98 308.96666666666204 87.41999999999999 348.83333333333 87.41999999999999 C 388.699999999998 87.41999999999999 408.633333333332 172.01999999999998 448.5 172.01999999999998 C 488.36666666666406 172.01999999999998 548.16666666666 53.58000000000001 548.16666666666 53.58000000000001" data-z-index="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" style="cursor: pointer;"></path></g><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="none" style="cursor: pointer; outline: currentcolor none medium;" aria-hidden="false" role="region" tabindex="-1" aria-label="Item 1, line 1 of 2 with 6 data points."><path fill="#6f58e9" d="M 348 87.41999999999999 A 0 0 0 1 1 348 87.41999999999999 Z" data-z-index="-1" fill-opacity="0.25" visibility="hidden"></path><path fill="#6f58e9" d="M 49 218.32 A 4 4 0 1 1 49.00399999933334 218.31999800000017 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 1, 24. Item 1."></path><path fill="#6f58e9" d="M 149 156.28 A 4 4 0 1 1 149.00399999933333 156.27999800000018 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 2, 46. Item 1."></path><path fill="#6f58e9" d="M 249 254.98 A 4 4 0 1 1 249.00399999933333 254.97999800000017 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 3, 11. Item 1."></path><path fill="#6f58e9" d="M 348 91.41999999999999 A 4 4 0 1 1 348.00399999933336 91.41999800000015 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 4, 69. Item 1." stroke-width="0.00000703591563822048"></path><path fill="#6f58e9" d="M 448 176.01999999999998 A 4 4 0 1 1 448.00399999933336 176.01999800000016 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 5, 39. Item 1."></path><path fill="#6f58e9" d="M 548 57.58000000000001 A 4 4 0 1 1 548.0039999993334 57.57999800000018 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 6, 81. Item 1."></path></g><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="url(#highcharts-fxib8z5-8-)" aria-hidden="true"><path fill="none" d="M 49.833333333333 135.36 C 49.833333333333 135.36 109.63333333333321 236.88 149.5 236.88 C 189.366666666664 236.88 209.299999999996 22.560000000000002 249.16666666666 22.560000000000002 C 289.033333333328 22.560000000000002 308.96666666666204 219.96 348.83333333333 219.96 C 388.699999999998 219.96 408.633333333332 182.17200000000201 448.5 141 C 488.36666666666406 99.82800000000202 548.16666666666 14.100000000000023 548.16666666666 14.100000000000023" data-z-index="1" stroke="#94d13d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 49.833333333333 135.36 C 49.833333333333 135.36 109.63333333333321 236.88 149.5 236.88 C 189.366666666664 236.88 209.299999999996 22.560000000000002 249.16666666666 22.560000000000002 C 289.033333333328 22.560000000000002 308.96666666666204 219.96 348.83333333333 219.96 C 388.699999999998 219.96 408.633333333332 182.17200000000201 448.5 141 C 488.36666666666406 99.82800000000202 548.16666666666 14.100000000000023 548.16666666666 14.100000000000023" data-z-index="2" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22" style="cursor: pointer;"></path></g><g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="none" style="cursor: pointer; outline: currentcolor none medium;" aria-hidden="false" role="region" tabindex="-1" aria-label="Item 2, line 2 of 2 with 6 data points."><path fill="#94d13d" d="M 348 219.96 A 0 0 0 1 1 348 219.96 Z" data-z-index="-1" fill-opacity="0.25" visibility="hidden"></path><path fill="#94d13d" d="M 49 131.36 L 53 135.36 L 49 139.36 L 45 135.36 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 1, 52. Item 2."></path><path fill="#94d13d" d="M 149 232.88 L 153 236.88 L 149 240.88 L 145 236.88 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 2, 16. Item 2."></path><path fill="#94d13d" d="M 249 18.560000000000002 L 253 22.560000000000002 L 249 26.560000000000002 L 245 22.560000000000002 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 3, 92. Item 2."></path><path fill="#94d13d" d="M 348 215.96 L 352 219.96 L 348 223.96 L 344 219.96 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 4, 22. Item 2." stroke-width="0.000009869571931497845"></path><path fill="#94d13d" d="M 448 137 L 452 141 L 448 145 L 444 141 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 5, 50. Item 2."></path><path fill="#94d13d" d="M 548 10.100000000000023 L 552 14.100000000000023 L 548 18.100000000000023 L 544 14.100000000000023 Z" opacity="1" tabindex="-1" style="outline: currentcolor none medium;" role="img" aria-label="Category 6, 95. Item 2."></path></g></g><g data-z-index="3" aria-hidden="true"><g stroke-linecap="round" style="cursor: pointer;" transform="translate(616,10)"><title>Chart context menu</title><rect fill="#ffffff" x="0.5" y="0.5" width="24" height="22" rx="2" ry="2" stroke="none" stroke-width="1"></rect><path fill="#666666" d="M 6 6.5 L 20 6.5 M 6 11.5 L 20 11.5 M 6 16.5 L 20 16.5" data-z-index="1" stroke="#666666" stroke-width="3"></path><text font-family='Roboto-Regular,Roboto' x="0" data-z-index="1" y="15.5" style="color: rgb(51, 51, 51); font-weight: normal; fill: rgb(51, 51, 51);"></text></g></g><text font-family='Roboto-Regular,Roboto' x="325" text-anchor="middle" data-z-index="4" style="color: rgb(51, 51, 51); font-size: 18px; fill: rgb(51, 51, 51);" y="24" aria-hidden="true">Chart title</text><text font-family='Roboto-Regular,Roboto' x="325" text-anchor="middle" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="44" aria-hidden="true"></text><text font-family='Roboto-Regular,Roboto' x="10" text-anchor="start" data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="397" aria-hidden="true"></text><g data-z-index="7" aria-hidden="true" transform="translate(253,359)"><rect fill="none" rx="0" ry="0" x="0" y="0" width="144" height="26"></rect><g data-z-index="1"><g><g data-z-index="1" transform="translate(8,3)"><path fill="none" d="M 0 11 L 16 11" stroke="#6f58e9" stroke-width="2"></path><path fill="#6f58e9" d="M 8 15 A 4 4 0 1 1 8.003999999333336 14.999998000000167 Z" opacity="1"></path><text font-family='Roboto-Regular,Roboto' x="21" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 12px; font-weight: bold; fill: rgb(51, 51, 51);" text-anchor="start" data-z-index="2" y="15">Item 1</text></g><g data-z-index="1" transform="translate(82,3)"><path fill="none" d="M 0 11 L 16 11" stroke="#94d13d" stroke-width="2"></path><path fill="#94d13d" d="M 8 7 L 12 11 L 8 15 L 4 11 Z" opacity="1"></path><text font-family='Roboto-Regular,Roboto' x="21" y="15" style="color: rgb(51, 51, 51); cursor: pointer; font-size: 12px; font-weight: bold; fill: rgb(51, 51, 51);" text-anchor="start" data-z-index="2">Item 2</text></g></g></g></g><g data-z-index="7" aria-hidden="true"><text font-family='Roboto-Regular,Roboto' x="91.83333333333667" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 1</text><text font-family='Roboto-Regular,Roboto' x="191.49999999999665" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 2</text><text font-family='Roboto-Regular,Roboto' x="291.1666666666667" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 3</text><text font-family='Roboto-Regular,Roboto' x="390.83333333332666" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 4</text><text font-family='Roboto-Regular,Roboto' x="490.49999999999665" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 5</text><text font-family='Roboto-Regular,Roboto' x="590.1666666666666" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">Category 6</text></g><g data-z-index="7" aria-hidden="true"><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="332" opacity="1">0</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="50" opacity="1">100</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="262" opacity="1">25</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="191" opacity="1">50</text><text font-family='Roboto-Regular,Roboto' x="27" style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);" text-anchor="end" transform="translate(0,0)" y="121" opacity="1">75</text></g></svg>
+                                           </div>
+                                          
+
+                                        </div>
+
+                                    </div>
+                              
+                                </div>
+                            </div>
+
+                      </div>
+
+                      <!-- **********chart-2********** -->
+
+                      <div class="row tb border">
+                          <div class="col-12">
+                              <div class="row">
+                                  <div class="col-12 border row m-0 justify-content-between align-items-center">
+                                      <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
+                                        <i class="bi bi-laptop d-none d-md-block me-3"></i>
+                                        
+                                            <span>
+                                                Easy Dynamic Tables 
+                                            </span>
+                                      </div>
+                                      <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
+                                        <i class="bi bi-list"></i>
+                                      </div>
+
+                                  </div>
+
+                                  <!-- **********end heade1-table******* -->
+                                  <div class="col-12 row">
+                                      <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
+                                            <label class="d-flex align-items-center" for="">
+
+                                                Show
+                                            </label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>10</option>
+                                                <option value="1">25</option>
+                                                <option value="2">50</option>
+                                                <option value="3">100</option>
+                                              </select>
+                                              <label class="d-flex align-items-center" for="">
+
+                                                  entries
+                                              </label>
+                                       
+                                      </div>
+                                      <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end align-items-center p-0">
+                                          <label for="">Search:</label>
+                                          <input type="text">
+
+                                      </div>
+                                  </div>
+
+                                  <!-- ********end header2-table******* -->
+                                  <div class="col-12 d-flex justify-content-center">
+
+                                    <div>
+                                        <table class="table table-striped table-hover border">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Position</th>
+                                                <th scope="col">Office</th>
+                                                <th scope="col">Age</th>
+                                                <th scope="col">Startdate</th>
+                                                <th scope="col">Salary</th>
+                                                
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                               
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>Otto</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>Otto</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>Otto</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>Otto</td>
+                                                
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td colspan="2">Larry the Bird</td>
+                                                <td>@twitter</td>
+                                                <td>Otto</td>
+                                                <td>Otto</td>
+                                                
+                                              </tr>
+                                            </tbody>
+                                          </table>
+
+                                    </div>
+                                  </div>
+
+
+                                  <!-- **********end table********** -->
+                                  <div class="col-12 row">
+                                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
+                                        Showing 1 to 10 of 57 entries
+                                  </div>
+                                  <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end align-items-center p-0">
+                                    <nav aria-label="Page navigation example">
+                                        <ul class="pagination">
+                                          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                        </ul>
+                                      </nav>
+
+                                  </div>
+
+                                  </div>
+
+                              </div>
+
+                          </div>
+
+                      </div>
+
+                      <!-- ***********table******** -->
+
+                      <div class="row tasks">
+                          <div class="col-12">
+                            <div class="row justify-content-between">
+
+
+                                <div class="row col-12 p-0 chart-left m-0">
+                                    <div class="col-12 d-flex justify-content-between border align-items-center">
+                                        <div>
+                                            <i class="bi bi-database"></i>
+                                            
+                                            Tasks List 
+                                        </div>
+                                        <div>
+                                            <div>
+
+                                                <i class="bi bi-list"></i>
+                                            </div>
+                                          
+                                        </div>
+                                   
+                                    </div>
+                                    <!-- *******header1****** -->
+
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <div></div>
+
+                                                <div class="form-check">
+                                                  <input type="checkbox" class="form-check-input" id="check1" checked/>
+                                                  
+                                                </div>
+
+                                                <img src="assets/img/3.jpg" alt="">
+
+                                                <div>
+                                                    <div>
+                                                        Wash the car</div>
+                                                    <i>Written by Bob</i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-check-lg"></i>
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div></div>
+
+                                                <div class="form-check">
+                                                  <input type="checkbox" class="form-check-input" id="check1" checked/>
+                                                  
+                                                </div>
+
+                                                <img src="assets/img/3.jpg" alt="">
+
+                                                <div>
+                                                    <div>
+                                                        Wash the car</div>
+                                                    <i>Written by Bob</i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-check-lg"></i>
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div></div>
+
+                                                <div class="form-check">
+                                                  <input type="checkbox" class="form-check-input" id="check1" checked/>
+                                                  
+                                                </div>
+
+                                                <img src="assets/img/1.jpg" alt="">
+
+                                                <div>
+                                                    <div>
+                                                        Wash the car</div>
+                                                    <i>Written by Bob</i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-check-lg"></i>
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div></div>
+
+                                                <div class="form-check">
+                                                  <input type="checkbox" class="form-check-input" id="check1" checked/>
+                                                  
+                                                </div>
+
+                                                <img src="assets/img/3.jpg" alt="">
+
+                                                <div>
+                                                    <div>
+                                                        Wash the car</div>
+                                                    <i>Written by Bob</i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-check-lg"></i>
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div></div>
+
+                                                <div class="form-check">
+                                                  <input type="checkbox" class="form-check-input" id="check1" checked/>
+                                                  
+                                                </div>
+
+                                                <img src="assets/img/3.jpg" alt="">
+
+                                                <div>
+                                                    <div>
+                                                        Wash the car</div>
+                                                    <i>Written by Bob</i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-check-lg"></i>
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div></div>
+
+                                                <div class="form-check">
+                                                  <input type="checkbox" class="form-check-input" id="check1" checked/>
+                                                  
+                                                </div>
+
+                                                <img src="assets/img/3.jpg" alt="">
+
+                                                <div>
+                                                    <div>
+                                                        Wash the car</div>
+                                                    <i>Written by Bob</i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-check-lg"></i>
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div></div>
+
+                                                <div class="form-check">
+                                                  <input type="checkbox" class="form-check-input" id="check1" checked/>
+                                                  
+                                                </div>
+
+                                                <img src="assets/img/3.jpg" alt="">
+
+                                                <div>
+                                                    <div>
+                                                        Wash the car</div>
+                                                    <i>Written by Bob</i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-check-lg"></i>
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div></div>
+
+                                                <div class="form-check">
+                                                  <input type="checkbox" class="form-check-input" id="check1" checked/>
+                                                  
+                                                </div>
+
+                                                <img src="assets/img/3.jpg" alt="">
+
+                                                <div>
+                                                    <div>
+                                                        Wash the car</div>
+                                                    <i>Written by Bob</i>
+                                                </div>
+                                                <div>
+                                                    <i class="bi bi-check-lg"></i>
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </div>
+                                            </li>
+                                        
+                                        </ul>
+
+                                    </div>
+
+                                    <!-- *******header2********** -->
+
+                                    <div class="col-12 row p-0 m-0 border">
+                                        <div class="col-12 d-flex justify-content-end align-items-center">
+                                            <div>
+                                                <div><a href="">cancel</a></div>
+                                                <div><a href="">add task</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- **********chart-left********* -->
+
+
+
+                                <div class="row col-12 p-0 chart-right m-0">
+                                    <div class="col-12 d-flex justify-content-between align-items-center border">
+                                        
+                                            <div>
+                                                <i class="bi bi-printer"></i>
+                                                
+                                                Chat Box 
+                                            </div>
+                                            
+                                        
+
+                                       
+                                            <div>
+                                                <div>
+    
+                                                    <i class="bi bi-list"></i>
+                                                </div>
+                                              
+                                            </div>
+                                        
+                                    </div>
+
+                                    <div>
+                                      
+
+
+
+                                        <div class="user1">
+                                            <div>
+                                                <div>
+                                                Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. 
+
+                                                </div>
+                                                <small> 11:01 AM | Yesterday </small>
+                                            </div>
+
+                                            <div>
+                                                <img src="assets/img/2.jpg" alt="">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="user2">
+                                            <div>
+                                                <img src="assets/img/3.jpg" alt="">
+                                            </div>
+                                            <div>
+                                                <div>
+                                                Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. 
+
+                                                </div>
+                                                <small> 11:01 AM | Yesterday </small>
+                                            </div>
+                                           
+                                        </div>
+
+
+                                        <div class="user1">
+                                            <div>
+                                                <div>
+                                                Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. 
+
+                                                </div>
+                                                <small> 11:01 AM | Yesterday </small>
+                                            </div>
+                                            <div>
+                                                <img src="assets/img/2.jpg" alt="">
+                                            </div>
+                                        </div>
+                                       
+
+
+                                     
+
+                                    </div>
+
+
+                                    <div class="d-flex align-items-center border">
+                                        <div class="col-12">
+                                            <input type="text" placeholder="Write here and hit enter to send...">
+                                        </div>
+                                    </div>
+                                </div>
+                               <!-- ********chart-right********* -->
+                            </div>
+
+                          </div>
+
+                      </div>
+
+
+                      <!-- ********tasks********* -->
+
+
+                      <div class="row total">
+                          <div class="col-12 border">
+                              <div class="row ">
+                                  <div class="col-12 col-md-4 p-0">
+
+                                        <div class="d-flex justify-content-between col-12">
+                                            <div class="row">
+                                                <span class="d-flex col-12">Total Orders </span>
+                                                <span class="d-flex col-12">Last year expenses</span>
+                                            </div>
+                                            <div>
+                                                1896 
+                                            </div>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between col-12">
+                                            <div class="row">
+                                                <span class="d-flex col-12">Total Orders </span>
+                                                <span class="d-flex col-12">Last year expenses</span>
+                                            </div>
+                                            <div>
+                                                1896 
+                                            </div>
+
+                                        </div>
+                                      
+                                       
+                                                                 
+                                  </div>
+                                  <div class="col-12 col-md-4 p-0">
+
+                                        <div class="d-flex justify-content-between col-12">
+                                            <div class="row">
+                                                <span class="d-flex col-12">Followers </span>
+                                                <span class="d-flex col-12">People Interested </span>
+                                            </div>
+                                            <div style="color: #d92550;">
+                                                45,9%
+                                            </div>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between col-12">
+                                            <div class="row">
+                                                <span class="d-flex col-12">Clients </span>
+                                                <span class="d-flex col-12">Total Clients Profit </span>
+                                            </div>
+                                            <div style="color: #da624a;">
+                                                $12.6k 
+                                            </div>
+
+                                        </div>
+                                      
+                                       
+                                                                 
+                                  </div>
+                                  <div class="col-12 col-md-4 p-0">
+
+                                        <div class="d-flex justify-content-between col-12">
+                                            <div class="row">
+                                                <span class="d-flex col-12">Products Sold </span>
+                                                <span class="d-flex col-12">Total revenue streams </span>
+                                            </div>
+                                            <div style="color: #f7b924;">
+                                                $3M 
+                                            </div>
+
+                                        </div>
+                                        <div class="d-flex justify-content-between col-12">
+                                            <div class="row">
+                                                <span class="d-flex col-12">Total Orders </span>
+                                                <span class="d-flex col-12">Last year expenses</span>
+                                            </div>
+                                            <div>
+                                                1896 
+                                            </div>
+
+                                        </div>
+                                      
+                                       
+                                                                 
+                                  </div>
+                              
+
+
+                             
+
+
+                              </div>
+
+                          </div>
+
+                      </div>
+
+
+                      <!-- ******total****** -->
+
+                      <div class="row footer-f align-items-center">
+                          <div class="col-12">
+                              <div class="row justify-content-between">
+                                  <div class="col-3 d-flex align-items-center">
+                                    <i class="bi bi-exclamation-triangle"></i>
+                                    <i class="bi bi-bar-chart"></i>
+                                  </div>
+
+                                  <div class="col-3" >
+                                      <a href="" class="d-flex justify-content-end align-items-center">
+                                        Footer Menu
+                                        <div>
+                                            <small>
+                                                Old
+                                            </small>
+                                        </div>
+                                        <i class="bi bi-chevron-compact-up"></i>
+                                      </a>
+                                  </div>
+
+                              </div>
+
+                          </div>
+                      </div>
+
+                     
+
+                  </section>
+        
+                </div>
+
+                <!-- ******content**** -->
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+   
+       
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="assets/js/chart.js"></script>
+
+<script src="assets/js/main.js"></script>
+
+  
+    
+</body>
+</html>
